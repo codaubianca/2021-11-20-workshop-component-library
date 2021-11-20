@@ -1,3 +1,17 @@
-.Slider {
-  /* --- YOUR STYLES HERE --- */
+#slider-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-container > .input-block {
+  display: flex;
+  flex-direction: row;
+}
+
+#flex-container > .slider {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+    padding: 0;
+
 }
